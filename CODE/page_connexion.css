@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(22, 50, 87), rgb(0, 0, 0) 60%);
+}
+
+img {
+    position: fixed;
+    margin-left: 30%;
+    margin-top: 9%;
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+    background: linear-gradient(217deg, rgb(154, 231, 250), rgb(71, 147, 247) 70.71%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 0 50px;
+}
+
+.formulaire {
+    margin-bottom: 2.5%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    position: relative;
+    top: -5%;
+}
+
+.flex-container {
+    width: 25.01%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+    border: 5px solid rgb(71, 147, 247);
+    border-radius: 20px/20px;
+    padding: 2em;
+    margin-top: 3.5em;
+    background-color: white;
+    box-shadow: black 0px 3px 3px;
+}
+
+.flex-item {
+    font-size: 15px;
+    font-family: Verdana;
+    width: 270px;
+    margin-top: 2.5em;
+    border: none;
+    box-shadow: gray 0px 2px 0px;
+}
+
+input:invalid {
+    box-shadow: red 0px 1px 0px;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Verdana;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(89, 209, 95);
+    border: solid rgb(89, 209, 95);
+    border-radius: 1em;
+    margin-top: 2em;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    border: solid rgb(68, 156, 72);
+    background-color: rgb(68, 156, 72);
+    color: rgb(255, 255, 255);
+}
+
+#connexion {
+    margin-top: 3.5em;
+}
+
+#compte {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Verdana;
+    width: 25.01%;
+    position: fixed;
+    left: 37.5%;
+    top: 60%;
+    margin-top: 0.5em;
+    background-color: rgb(89, 209, 95);
+    border: solid rgb(89, 209, 95);
+    border-radius: 1em;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+#compte:hover {
+    border: solid rgb(68, 156, 72);
+    background-color: rgb(68, 156, 72);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(22, 50, 87), rgb(0, 0, 0) 60%);
+}
+
+img {
+    position: fixed;
+    left: 73%;
+    margin-top: 14%;
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+    background: linear-gradient(217deg, rgb(154, 231, 250), rgb(71, 147, 247) 70.71%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 0 50px;
+}
+
+.brand {
+    width: 200px;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav li {
+    padding: 20px;
+}
+
+.nav li:hover {
+    background: linear-gradient(217deg, rgb(154, 231, 250), rgb(71, 147, 247) 70.71%);
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    height: 100%;
+}
+
+.flex-container {
+    color: rgb(72, 73, 75);
+    font-family: Verdana;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2em;
+    border: 5px solid rgb(71, 147, 247);
+    border-radius: 20px/20px;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.formulaire {
+    margin-bottom: 2.5%;
+}
+
+.demande {
+    margin-top: 15%;
+}
+
+.inputdemande {
+    margin-top: 4%;
+}
+
+#consigne {
+    margin-top: 1%;
+}
+
+#sujet {
+    margin-top: 1.5%;
+    width: 80%;
+}
+
+#inputdemande {
+    margin-top: 1.5%;
+    width: 80%;
+    display: inline-block;
+}
+
+textarea {
+    width: 80%;
+}
+
+.button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: rgb(89, 209, 95);
+    font-weight: bold;
+    font-family: Verdana;
+    width: 35%;
+    padding: 2em;
+    color: white;
+    background-color: rgb(89, 209, 95);
+    border: solid rgb(89, 209, 95);
+    border-radius: 1em;
+    margin-top: 2%;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    border: solid rgb(68, 156, 72);
+    background-color: rgb(68, 156, 72);
+    color: rgb(255, 255, 255);
+}
+
+legend {
+    margin-bottom: 1em;
+}
+
+
+/*iframe {
+    margin-top: 2em;
+}*/
+
+#explication {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
